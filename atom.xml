@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-07-20T16:26:58.456Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>子不语啊</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>为你，千千万万遍</title>
+    <link href="http://yoursite.com/2019/07/20/hexo%E9%85%8D%E7%BD%AE%E6%B5%8B%E8%AF%95/"/>
+    <id>http://yoursite.com/2019/07/20/hexo配置测试/</id>
+    <published>2019-07-20T12:08:16.000Z</published>
+    <updated>2019-07-20T16:26:58.456Z</updated>
+    
+    <content type="html"><![CDATA[<p>“每一个日子都普通除了见你的那一天 天空是粉色 喝白水有甜味 阳光软软地盖在身上 连风路过的时候好像都打着好看的卷儿”</p><a id="more"></a><blockquote class="blockquote-center">但行好事，勿问前程</blockquote>![这里写图片描述](https://huaban.com/go/?pin_id=1291005024)<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=21157332&auto=0&height=66"></iframe>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;“每一个日子都普通除了见你的那一天 天空是粉色 喝白水有甜味 阳光软软地盖在身上 连风路过的时候好像都打着好看的卷儿”&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
