@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-21T10:08:35.974Z</updated>
+  <updated>2019-07-21T10:11:42.852Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2019/07/21/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/"/>
     <id>http://yoursite.com/2019/07/21/项目源码解析/</id>
     <published>2019-07-21T09:05:33.000Z</published>
-    <updated>2019-07-21T10:08:35.974Z</updated>
+    <updated>2019-07-21T10:11:42.852Z</updated>
     
-    <content type="html"><![CDATA[<p>专注，耐心</p><a id="more"></a><p>=<strong><em>项目流程摘要</em></strong><br>-第一步：搭建环境<br>-第二步：分析学习技术点<br>-第三步：功能模块流程</p><p>##第四步：测试<br><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563713670520&di=064d8be8789714a56be9c64e687ab80a&imgtype=0&src=http%3A%2F%2Fww1.sinaimg.cn%2Forj480%2Fb601eecdgw1eyuw60w40kj20c80c83yv.jpg" alt="加油"></p>]]></content>
+    <content type="html"><![CDATA[<p>专注，耐心</p><a id="more"></a><p><strong><em>项目流程摘要</em></strong><br>1.第一步：搭建环境<br>2.第二步：分析学习技术点<br>3.第三步：功能模块流程</p><p>#第四步：测试<br><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563713670520&di=064d8be8789714a56be9c64e687ab80a&imgtype=0&src=http%3A%2F%2Fww1.sinaimg.cn%2Forj480%2Fb601eecdgw1eyuw60w40kj20c80c83yv.jpg" alt="加油"></p>]]></content>
     
     <summary type="html">
     
