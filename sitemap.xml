@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/categories/index.html</loc>
+    
+    <lastmod>2019-07-21T02:34:53.171Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2019/07/20/hexo%E9%85%8D%E7%BD%AE%E6%B5%8B%E8%AF%95/</loc>
     
-    <lastmod>2019-07-20T16:38:44.532Z</lastmod>
+    <lastmod>2019-07-21T02:01:42.439Z</lastmod>
     
   </url>
   
