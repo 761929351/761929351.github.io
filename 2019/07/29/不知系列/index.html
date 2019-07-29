@@ -16,7 +16,7 @@
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="erp项目7.29日 你好啊     勤记问题，速记，之后有时间在来回顾问题，详记解决思路 写东西写少了出现问题不知道怎么解决，所学的知识超过了拥有的能力，导致业务实现不了 涉及钱的问题，及时还清，别忘了 出门在外，自己的事情自己解决，比如钥匙，手机等东西 出现bug，不要第一时间百度，先自己解决 如何看代码：写标注">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-07-29T11:17:39.385Z">
+<meta property="og:updated_time" content="2019-07-29T11:25:41.858Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="不知系列">
 <meta name="twitter:description" content="erp项目7.29日 你好啊     勤记问题，速记，之后有时间在来回顾问题，详记解决思路 写东西写少了出现问题不知道怎么解决，所学的知识超过了拥有的能力，导致业务实现不了 涉及钱的问题，及时还清，别忘了 出门在外，自己的事情自己解决，比如钥匙，手机等东西 出现bug，不要第一时间百度，先自己解决 如何看代码：写标注">
@@ -210,24 +210,18 @@
 <li><p>问题描述：int 类型变为long类型在vue端显示办法</p>
 <ul>
 <li>细记：</li>
-<li>解决：vm.eCompany.compType = r.eCompany.compType+’’</li>
+<li>解决：{vm.eCompany.compType = r.eCompany.compType+’’}</li>
 </ul>
 </li>
-<li><p>问题描述：style=’width: 200px’   或者<i-col span="2"> </i-col></p>
+<li><p>问题描述：{style=’width: 200px’}   或者{<i-col span="2"> </i-col>}</p>
 <ul>
 <li>细记</li>
-<li>解决：放在&lt;Form-item 里面就能控制格子的大小</li>
+<li>解决：放在{&lt;Form-item} 里面就能控制格子的大小</li>
 </ul>
 </li>
 <li><p>问题描述：java ElementTraversal</p>
 <ul>
-<li>解决</li>
-<li><dependency>  </dependency></li>
-<li><groupid>xml-apis</groupid>  </li>
-<li><artifactid>xml-apis</artifactid>  </li>
-<li><version>1.4.01</version>  </li>
-<li> 
-</li>
+<li>解决<br>{<dependency><br><groupid>xml-apis</groupid><br><artifactid>xml-apis</artifactid><br><version>1.4.01</version><br></dependency>} </li>
 </ul>
 </li>
 <li><p>问题描述：地址拼接</p>
@@ -247,7 +241,7 @@
 <li><p>问题描述：mysql写法</p>
 <ul>
 <li>少写left join 语法，在controller层进行判断</li>
-<li><if test="license != null and license.trim() != ''"></if></li>
+<li>{<if test="license != null and license.trim() != ''">}</if></li>
 <li>查询筛选条件</li>
 <li>x.trim()!=’’功能除去字符串开头和末尾的空格或其他字符</li>
 </ul>
@@ -263,17 +257,8 @@
 <li>判断是不是超级管理员属性Constant</li>
 <li>传参数值params.put</li>
 <li>还要在xm里面querlist加条件</li>
-<li>querylist字段</li>
-<li><if test="createId != null and createId.trim() != ''"></if></li>
-<li>AND create_id = #{createId}</li>
-<li></li>
-<li>其他querylist字段</li>
-<li><if test="deptId != null"></if></li>
-<li>AND create_id in (select user_id from sys_user where dept_id=#{deptId})</li>
-<li></li>
-<li>ps:sql   in&amp;=</li>
-<li>n   可以传多个值  （，，，）</li>
-<li>=    传一个值</li>
+<li>querylist字段<br>{ <if test="createId != null and createId.trim() != ''"><pre><code>AND create_id = #{createId}</code></pre></if>}</li>
+<li>其他querylist字段<br>{<if test="deptId != null"><pre><code>AND create_id in (select user_id from sys_user where dept_id=#{deptId})</code></pre></if>}<br>{ ps:sql   in&amp;=<br>n   可以传多个值  （，，，）<br>=    传一个值}</li>
 </ul>
 </li>
 </ul>
