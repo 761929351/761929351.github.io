@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-31T10:18:31.988Z</updated>
+  <updated>2019-07-31T16:00:12.602Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,56 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>&#39;思  录&#39;</title>
+    <link href="http://yoursite.com/2019/07/31/%E6%80%9D/"/>
+    <id>http://yoursite.com/2019/07/31/思/</id>
+    <published>2019-07-31T13:47:30.000Z</published>
+    <updated>2019-07-31T16:00:12.602Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="录"><a href="#录" class="headerlink" title="录"></a>录</h1><p><strong>原则</strong></p><ol><li><p>每做一件事要负责到底</p><blockquote><p>挑不出毛病</p></blockquote></li><li><p>专注的能力</p><blockquote><p>工作不看手机<br>工作不浏览无关网页</p></blockquote></li><li><p>做一件大事时，拖上两件无关紧要的小事</p><blockquote><p>小事只有在大事在预期完成前提下才能开始做</p></blockquote></li></ol><p><strong>现实情况一览</strong></p><blockquote><p>最重要：两个月内全身心快速提高工作能力</p></blockquote><blockquote><p>其次：翻译</p></blockquote><blockquote><p>再其次：java成神之路技能点点击（每天一个小点，只了解然后记录）</p></blockquote><h2 id="第一期：9月"><a href="#第一期：9月" class="headerlink" title="第一期：9月"></a>第一期：9月</h2><blockquote class="blockquote-center"> 没谁会看的 </blockquote><a id="more"></a><ol><li>吃完erp项目 功能逻辑实现</li></ol><p><strong>截止时间 ： 8月12日</strong></p><hr><blockquote><p>要求:</p></blockquote><blockquote><p>vue前端—-现有的都会用</p></blockquote><blockquote><p>erp系统流程总结，造一个模板</p></blockquote><blockquote><p>权限系统</p></blockquote><blockquote><p>熟悉业务开发流程</p></blockquote><ol start="2"><li>吃完kt项目 </li></ol><p><strong>截止时间 ： 9月1日</strong></p><hr><blockquote><p>要求：</p></blockquote><blockquote><p>后台管理系统流程总结，造一个模板</p></blockquote><blockquote><p>熟悉业务开发流程</p></blockquote><blockquote><p>用户模块</p></blockquote><ol start="3"><li>数据结构 配合书看一遍</li></ol><p><strong>截止时间 ： 8月4日</strong></p><hr><blockquote><p>要求 ：</p></blockquote><blockquote><p>数据结构基本知识</p></blockquote><blockquote><p>算法</p></blockquote><p>奖励：8月30-9月1日休息，陪女友·</p><p>制定人：L</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;录&quot;&gt;&lt;a href=&quot;#录&quot; class=&quot;headerlink&quot; title=&quot;录&quot;&gt;&lt;/a&gt;录&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;原则&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;每做一件事要负责到底&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;挑不出毛病&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;专注的能力&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;工作不看手机&lt;br&gt;工作不浏览无关网页&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;做一件大事时，拖上两件无关紧要的小事&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;小事只有在大事在预期完成前提下才能开始做&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;现实情况一览&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;最重要：两个月内全身心快速提高工作能力&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;其次：翻译&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;再其次：java成神之路技能点点击（每天一个小点，只了解然后记录）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;第一期：9月&quot;&gt;&lt;a href=&quot;#第一期：9月&quot; class=&quot;headerlink&quot; title=&quot;第一期：9月&quot;&gt;&lt;/a&gt;第一期：9月&lt;/h2&gt;&lt;blockquote class=&quot;blockquote-center&quot;&gt; 没谁会看的 &lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+    
+    
+      <category term="学" scheme="http://yoursite.com/tags/%E5%AD%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>&#39;不知系列七三一&#39;</title>
