@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-30T11:48:12.418Z</updated>
+  <updated>2019-07-31T10:07:37.597Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,42 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>&#39;不知系列七三一&#39;</title>
+    <link href="http://yoursite.com/2019/07/31/%E4%B8%8D%E7%9F%A5%E7%B3%BB%E5%88%97%E4%B8%83%E4%B8%89%E4%B8%80/"/>
+    <id>http://yoursite.com/2019/07/31/不知系列七三一/</id>
+    <published>2019-07-31T09:21:27.000Z</published>
+    <updated>2019-07-31T10:07:37.597Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="erp项目"><a href="#erp项目" class="headerlink" title="erp项目"></a>erp项目</h1><h2 id="7-30日"><a href="#7-30日" class="headerlink" title="7.30日"></a>7.30日</h2><h3 id="今日"><a href="#今日" class="headerlink" title="今日"></a>今日</h3><ul><li>shift+table向前缩进</li><li>ctrl+alt+l对齐</li><li>了解原理得通过源码实现</li><li>健康最重要，专注和快速学习其次</li><li>学习一个新技术</li></ul><blockquote><ol><li>去官方网站跑一边基础功能实现/github找相关技术项目</li><li>运行项目</li><li>按照想要的功能进行改</li><li>会了+多加练习</li></ol></blockquote><a id="more"></a><h3 id="业务功能"><a href="#业务功能" class="headerlink" title="业务功能"></a>业务功能</h3><p>*下拉多选查询逻辑：</p><blockquote><p>问题1.如何解决select选中之后查询关联select的数据<br>问题2.修改数据时如何默认选择级联的select数据，显示在页面</p></blockquote><ul><li>预览逻辑，不带先上传</li></ul><blockquote><p>问题1：绘制项目流程图</p></blockquote><ul><li><p>跟项目发起人沟通需要哪些业务</p><blockquote><ol><li>根据业务画出流程图</li><li>根据流程图设计出表结构</li><li>根据表结构设计出代码逻辑</li></ol></blockquote></li><li><p>问题2：合同功能是怎么设计的</p><blockquote><ol><li>根据合同需求文档</li><li>挖掘字段设计表</li></ol></blockquote></li></ul><h3 id="vue工作原理"><a href="#vue工作原理" class="headerlink" title="vue工作原理"></a>vue工作原理</h3><h4 id="vue双向数据绑定"><a href="#vue双向数据绑定" class="headerlink" title="vue双向数据绑定"></a>vue双向数据绑定</h4><blockquote><p>双向绑定：页面操作能更新到数据里，数据更改可以到页面<br>mvvm的新模式，把Model用纯JavaScript对象表示，View负责显示，ViewModel负责把Model的数据同步到View显示出来，还负责把View的修改同步回Model，实现了model和view的最大分离</p></blockquote><h4 id="如何实现"><a href="#如何实现" class="headerlink" title="如何实现"></a>如何实现</h4><blockquote><ol><li>数据监听器Observer，对数据所有属性进行监听，如有变动拿到最新值给订阅者</li><li>指令解析器Compile，对每个元素指令进行解析</li><li>watcher    数据和指令的沟通桥梁，能够收到每个属性变动的通知</li><li>mvvm入口函数</li></ol><ul><li>挂载元素（el）:操作哪一个元素下的区域</li><li>数据（data）：数据对象—响应数据的变化</li><li>模板（template）</li><li>方法（methods）</li><li>生命周期狗子（created）：实例建完将调用方法</li></ul></blockquote><h4 id="设计模式"><a href="#设计模式" class="headerlink" title="设计模式"></a>设计模式</h4><ul><li>发布-订阅者模式</li><li>定义发布者</li><li>增加订阅者名单方法</li><li>定义一个增加订阅者到名单里面的方法</li><li>发布者发布消息</li><li>订阅者收到的消息<h4 id="跑vue官网教程中"><a href="#跑vue官网教程中" class="headerlink" title="跑vue官网教程中"></a>跑vue官网教程中</h4></li></ul><h4 id="想法"><a href="#想法" class="headerlink" title="想法"></a>想法</h4><ul><li>要在半年内吃透pesosp项目的所有东西，具体办法是每个功能从前台到后台用test测试一遍，除登录功能以外</li><li>每天更新一个小模块测试样本</li><li>从目前的erp项目更起</li></ul><h3 id="资源链接"><a href="#资源链接" class="headerlink" title="资源链接"></a>资源链接</h3><p><a href="https://www.boatsky.com/movie/list?type=4&country=all&sort=imdb_score" target="_blank" rel="noopener">电影推荐</a><br><a href="https://blog.csdn.net/xingbaozhen1210/article/details/81093041" target="_blank" rel="noopener">idea插件</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;erp项目&quot;&gt;&lt;a href=&quot;#erp项目&quot; class=&quot;headerlink&quot; title=&quot;erp项目&quot;&gt;&lt;/a&gt;erp项目&lt;/h1&gt;&lt;h2 id=&quot;7-30日&quot;&gt;&lt;a href=&quot;#7-30日&quot; class=&quot;headerlink&quot; title=&quot;7.30日&quot;&gt;&lt;/a&gt;7.30日&lt;/h2&gt;&lt;h3 id=&quot;今日&quot;&gt;&lt;a href=&quot;#今日&quot; class=&quot;headerlink&quot; title=&quot;今日&quot;&gt;&lt;/a&gt;今日&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;shift+table向前缩进&lt;/li&gt;
+&lt;li&gt;ctrl+alt+l对齐&lt;/li&gt;
+&lt;li&gt;了解原理得通过源码实现&lt;/li&gt;
+&lt;li&gt;健康最重要，专注和快速学习其次&lt;/li&gt;
+&lt;li&gt;学习一个新技术&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;去官方网站跑一边基础功能实现/github找相关技术项目&lt;/li&gt;
+&lt;li&gt;运行项目&lt;/li&gt;
+&lt;li&gt;按照想要的功能进行改&lt;/li&gt;
+&lt;li&gt;会了+多加练习&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+    
+    
+      <category term="学" scheme="http://yoursite.com/tags/%E5%AD%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>&#39;不知系列七三零&#39;</title>
