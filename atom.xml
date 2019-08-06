@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-08-02T15:32:29.186Z</updated>
+  <updated>2019-08-06T13:30:39.301Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,70 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>&#39;不知八零六&#39;</title>
+    <link href="http://yoursite.com/2019/08/06/%E4%B8%8D%E7%9F%A5%E5%85%AB%E9%9B%B6%E5%85%AD/"/>
+    <id>http://yoursite.com/2019/08/06/不知八零六/</id>
+    <published>2019-08-06T13:18:10.000Z</published>
+    <updated>2019-08-06T13:30:39.301Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="8月6日"><a href="#8月6日" class="headerlink" title="8月6日"></a>8月6日</h1><blockquote class="blockquote-center"> 风 </blockquote><a id="more"></a><p>写代码一步一步来，要像剥菠萝一样，不能跟吃香蕉一样一下就剥完了，没那么大劲</p><p>空值查询，，定标签的逻辑<br>实现目标：查询出数据库里面字段为空的值</p><p>编写逻辑：1.理解业务要求<br>查找外县的数据，其中一个字段要为空，这是特殊条件，而其他为正常条件，业务逻辑要尽可能的简单就能实现，别把问题搞复杂化，之前思考就是思考不清该如何查询，想着把7个镇都作为条件，外县单独作为一个条件，8个值，传参进去，根据参数在xml里查找数据。而实际上老范的写法就是两个值，一个为全部，一个为外县。向这种，就别往细节上想，能不用循环的就不要用循环，说道这里，前端的循环我不会用，要尽量依照要求来编写打啊，比如这次，要求是查找外县，就不用管其他哪个镇哪个镇的数据了，就是两种，一种是外县，一种就是所有镇。标记不是字段，知识作为判断的依据，跟数据库无关<br>另外一个就是xml  里面的标记的概念，if里面的字段实际上就是作为标记存在的，标记就是判断条件，比如这次这个，因为1.常识里面没人选择用空字符作为判断条件2.villageId在其他判断语句里面也有，假如设这个为空，不填也是查所有，这个想法是错的。用isWaiXian作为标记，isWaiXian有两种状态，一种为全部设值为1，一种是外县，设值为2，因为状态都存在值，所以此字段不为空切当值为2时，就让village_id=0为条件，查询数据。<br>第三个要注意的点就是if 为数字判断为字符串写法是，(isWaiXian.trim() == ‘2’.toString())<br>在前端里面,下拉有两种模式，一种是select语句，一种是循环调用查询（不会），select的核心是赋值进去。第二个查询条件在js里面只需要改两个地方q.{}这里赋初值，在vim.q.xxx这里面一个是标记，一个是在html里面写的方法名称。<br>idea批量复制 ：ctrl+shirft+r   上面是被替代的内容，下面是替换的内容。</p><blockquote><p>心得：<br>1.事情一步一步来先处理完一件小事，认真处理完，在继续进行其他事情<br>2.查看代码，前端可以按照一模块一模块来看，简单修改就知道怎么进行修改了，后端可以断点调试，观察所得数据的出处，与数据库sql的异同来进行比较哪里出了问题了。<br>3.要想迅速了解一个技术点，要快速掌握它的运行逻辑+语法，简单的重复模仿操作达到熟练度这是不行的，遇到复杂问题还是不会<br>4.要么花时间，要么动脑子，不动脑子的结果就是时间花了，事情却没有办成。</p></blockquote><ul><li>遗留问题：js事件委托和事件代理，jquery</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;8月6日&quot;&gt;&lt;a href=&quot;#8月6日&quot; class=&quot;headerlink&quot; title=&quot;8月6日&quot;&gt;&lt;/a&gt;8月6日&lt;/h1&gt;&lt;blockquote class=&quot;blockquote-center&quot;&gt; 风 &lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+    
+    
+      <category term="学" scheme="http://yoursite.com/tags/%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>&#39;工具分享&#39;</title>
+    <link href="http://yoursite.com/2019/08/04/%E5%B7%A5%E5%85%B7%E5%88%86%E4%BA%AB/"/>
+    <id>http://yoursite.com/2019/08/04/工具分享/</id>
+    <published>2019-08-04T03:51:31.000Z</published>
+    <updated>2019-08-04T03:51:31.354Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>&#39;不知巴陵四&#39;</title>
+    <link href="http://yoursite.com/2019/08/03/%E4%B8%8D%E7%9F%A5%E5%B7%B4%E9%99%B5%E5%9B%9B/"/>
+    <id>http://yoursite.com/2019/08/03/不知巴陵四/</id>
+    <published>2019-08-03T11:37:32.000Z</published>
+    <updated>2019-08-03T11:37:32.496Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>&#39;电影&#39;</title>
+    <link href="http://yoursite.com/2019/08/03/%E7%94%B5%E5%BD%B1/"/>
+    <id>http://yoursite.com/2019/08/03/电影/</id>
+    <published>2019-08-03T07:07:57.000Z</published>
+    <updated>2019-08-03T07:07:57.403Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>&#39;java基础&#39;</title>

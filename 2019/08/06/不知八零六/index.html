@@ -6,15 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives: 2019/8 | Hexo</title>
+  <title>&#39;不知八零六&#39; | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/archives/2019/08/index.html">
+  <meta name="description" content="8月6日 风">
+<meta name="keywords" content="学">
+<meta property="og:type" content="article">
+<meta property="og:title" content="&#39;不知八零六&#39;">
+<meta property="og:url" content="http://yoursite.com/2019/08/06/不知八零六/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="8月6日 风">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-08-06T13:30:39.301Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="&#39;不知八零六&#39;">
+<meta name="twitter:description" content="8月6日 风">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -163,36 +168,71 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
+            <article id="post-不知八零六" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
   
+    <h1 class="article-title" itemprop="name">
+      &#39;不知八零六&#39;
+    </h1>
   
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/08/06/不知八零六/" class="archive-article-date">
+
+        
+        <a href="/2019/08/06/不知八零六/" class="archive-article-date">
   	<time datetime="2019-08-06T13:18:10.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-08-06</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/08/06/不知八零六/">&#39;不知八零六&#39;</a>
-    </h1>
-  
+        
+		 
+          <span class="archive-article-date">
+              阅读量 <span id="busuanzi_value_page_pv"></span>
+          </span>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="8月6日"><a href="#8月6日" class="headerlink" title="8月6日"></a>8月6日</h1><blockquote class="blockquote-center"> 风 </blockquote>
 
-        <div class="article-info info-on-right">
-          
+<a id="more"></a>
+
+<p>写代码一步一步来，要像剥菠萝一样，不能跟吃香蕉一样一下就剥完了，没那么大劲</p>
+<p>空值查询，，定标签的逻辑<br>实现目标：查询出数据库里面字段为空的值</p>
+<p>编写逻辑：1.理解业务要求<br>查找外县的数据，其中一个字段要为空，这是特殊条件，而其他为正常条件，业务逻辑要尽可能的简单就能实现，别把问题搞复杂化，之前思考就是思考不清该如何查询，想着把7个镇都作为条件，外县单独作为一个条件，8个值，传参进去，根据参数在xml里查找数据。而实际上老范的写法就是两个值，一个为全部，一个为外县。向这种，就别往细节上想，能不用循环的就不要用循环，说道这里，前端的循环我不会用，要尽量依照要求来编写打啊，比如这次，要求是查找外县，就不用管其他哪个镇哪个镇的数据了，就是两种，一种是外县，一种就是所有镇。标记不是字段，知识作为判断的依据，跟数据库无关<br>另外一个就是xml  里面的标记的概念，if里面的字段实际上就是作为标记存在的，标记就是判断条件，比如这次这个，因为1.常识里面没人选择用空字符作为判断条件2.villageId在其他判断语句里面也有，假如设这个为空，不填也是查所有，这个想法是错的。用isWaiXian作为标记，isWaiXian有两种状态，一种为全部设值为1，一种是外县，设值为2，因为状态都存在值，所以此字段不为空切当值为2时，就让village_id=0为条件，查询数据。<br>第三个要注意的点就是if 为数字判断为字符串写法是，(isWaiXian.trim() == ‘2’.toString())<br>在前端里面,下拉有两种模式，一种是select语句，一种是循环调用查询（不会），select的核心是赋值进去。第二个查询条件在js里面只需要改两个地方q.{}这里赋初值，在vim.q.xxx这里面一个是标记，一个是在html里面写的方法名称。<br>idea批量复制 ：ctrl+shirft+r   上面是被替代的内容，下面是替换的内容。</p>
+<blockquote>
+<p>心得：<br>1.事情一步一步来先处理完一件小事，认真处理完，在继续进行其他事情<br>2.查看代码，前端可以按照一模块一模块来看，简单修改就知道怎么进行修改了，后端可以断点调试，观察所得数据的出处，与数据库sql的异同来进行比较哪里出了问题了。<br>3.要想迅速了解一个技术点，要快速掌握它的运行逻辑+语法，简单的重复模仿操作达到熟练度这是不行的，遇到复杂问题还是不会<br>4.要么花时间，要么动脑子，不动脑子的结果就是时间花了，事情却没有办成。</p>
+</blockquote>
+<ul>
+<li>遗留问题：js事件委托和事件代理，jquery</li>
+</ul>
+
+      
+
+
+  <div class="declare">
+    <strong>本文作者：</strong>
+    
+      子不语啊
+    
+    <br>
+    <strong>本文链接：</strong>
+    http://yoursite.com/2019/08/06/不知八零六/
+    <br>
+    <strong>版权声明：</strong>
+    本作品采用
+    <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>
+    进行许可。转载请注明出处！
+    
+  </div>
+
+
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -204,7 +244,7 @@
 		</ul>
 	</div>
 
-          
+      
 	<div class="article-category tagcloud">
 		<i class="icon-book icon"></i>
 		<ul class="article-tag-list">
@@ -217,147 +257,119 @@
 	</div>
 
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/08/06/不知八零六/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/08/04/工具分享/" class="archive-article-date">
-  	<time datetime="2019-08-04T03:51:31.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-08-04</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2019/08/04/工具分享/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">&#39;工具分享&#39;</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/08/04/工具分享/">&#39;工具分享&#39;</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-          
-
+        
+        
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#8月6日"><span class="toc-number">1.</span> <span class="toc-text">8月6日</span></a></li></ol>
+                    </div>
+                </span>
+            </div>
         </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/08/03/不知巴陵四/" class="archive-article-date">
-  	<time datetime="2019-08-03T11:37:32.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-08-03</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/08/03/不知巴陵四/">&#39;不知巴陵四&#39;</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/08/03/电影/" class="archive-article-date">
-  	<time datetime="2019-08-03T07:07:57.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-08-03</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/08/03/电影/">&#39;电影&#39;</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/08/02/java基础/" class="archive-article-date">
-  	<time datetime="2019-08-02T14:45:17.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-08-02</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/08/02/java基础/">&#39;java基础&#39;</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">学</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/hexo//" class="article-tag-list-link color5">hexo</a>
-        		</li>
-      		
-		</ul>
-	</div>
+        
+    </div>
+</aside>
 
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
+
   
   
-    </div></section>
   
 
-    
+  
+
+  
+
+  
+  
+
 
 
           </div>
@@ -408,8 +420,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
