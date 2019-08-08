@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-08-06T13:30:39.301Z</updated>
+  <updated>2019-08-08T01:11:34.919Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>&#39;不知八零七&#39;</title>
+    <link href="http://yoursite.com/2019/08/08/%E4%B8%8D%E7%9F%A5%E5%85%AB%E9%9B%B6%E4%B8%83/"/>
+    <id>http://yoursite.com/2019/08/08/不知八零七/</id>
+    <published>2019-08-08T01:04:59.000Z</published>
+    <updated>2019-08-08T01:11:34.919Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="8月6日"><a href="#8月6日" class="headerlink" title="8月6日"></a>8月6日</h1><blockquote class="blockquote-center"> 月 </blockquote><blockquote><p>1.得到一个项目之后首先得确定其地址是否正确，地址包括两点。<br>2.开始英语原文阅读<br>3.不熬夜，注意身体</p></blockquote><a id="more"></a><h2 id="如何在controller里面加条件："><a href="#如何在controller里面加条件：" class="headerlink" title="如何在controller里面加条件："></a>如何在controller里面加条件：</h2><p>1.前端与后端的联系<br>前端展示以及查询传值是分开的，主要是通过value值变化来查询数据库，而这个value值可以作为标记值进行传递到dao层，在if判断条件中进行赋值判断，而controller层编写逻辑操作，得知道所有数据字段的获取都是通过param进行传值，要编写字段符合条件的操作，就需要从param里面获取字段值，移除字段，设置标记赋值。</p><h2 id="3-权限系统实现逻辑"><a href="#3-权限系统实现逻辑" class="headerlink" title="3.权限系统实现逻辑"></a>3.权限系统实现逻辑</h2><p>通用：一个账号  多个角色  一个角色 多个权限  rbac<br>账号：<br>角色：<br>权限：<br>页面权限，<br>用户<br>操作权限<br>管理员<br>数据权限<br>系统管理员<br>页面设计<br>角色列表<br>账户列表页<br>权限分配</p><p>erp权限模块设计一览<br>1.权限模块</p><p>管理员列表：增删改查功能</p><p>涉及信息（除开以上）：赋予角色</p><p>角色列表：账户角色管理 增删改查<br>涉及信息（除开以上）：功能权限，数据权限（树状图）</p><p>账户列表：公司名称或者部门名称   增删改</p><p>菜单列表：有哪些界面显示</p><p>注：有树状图<br>涉及信息</p><p>跟后端链接地址的主要途径<br>技术点：树状图<br>在这里学习如果从一个开源项目教程里边实践操作,快速使用工具<br>开源项目i-vew<br>树形控件：</p><h2 id="io流速览"><a href="#io流速览" class="headerlink" title="io流速览"></a>io流速览</h2><p>简介：输入输出系统<br>包：java.io<br>拓展：Nio<br>流：数据流，进行读或写<br>流的类型</p><ul><li>字节流 字符流<br>输入流 InputStream Reader<br>输出流 OutputStream Writer<br>程序跟流的关系</li></ul><p>字节流转化为字符流：把二者进行组合<br>原理：比作水管，字符字节不同只是传入规模不同<br>用处：二进制 文件用字节   文本文件用字符</p><h2 id="学习网页：StackOverFlow"><a href="#学习网页：StackOverFlow" class="headerlink" title="学习网页：StackOverFlow"></a>学习网页：StackOverFlow</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;8月6日&quot;&gt;&lt;a href=&quot;#8月6日&quot; class=&quot;headerlink&quot; title=&quot;8月6日&quot;&gt;&lt;/a&gt;8月6日&lt;/h1&gt;&lt;blockquote class=&quot;blockquote-center&quot;&gt; 月 &lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;1.得到一个项目之后首先得确定其地址是否正确，地址包括两点。&lt;br&gt;2.开始英语原文阅读&lt;br&gt;3.不熬夜，注意身体&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+    
+    
+      <category term="学" scheme="http://yoursite.com/tags/%E5%AD%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>&#39;不知八零六&#39;</title>
@@ -39,39 +65,11 @@
   </entry>
   
   <entry>
-    <title>&#39;工具分享&#39;</title>
-    <link href="http://yoursite.com/2019/08/04/%E5%B7%A5%E5%85%B7%E5%88%86%E4%BA%AB/"/>
-    <id>http://yoursite.com/2019/08/04/工具分享/</id>
-    <published>2019-08-04T03:51:31.000Z</published>
-    <updated>2019-08-04T03:51:31.354Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>&#39;不知巴陵四&#39;</title>
-    <link href="http://yoursite.com/2019/08/03/%E4%B8%8D%E7%9F%A5%E5%B7%B4%E9%99%B5%E5%9B%9B/"/>
-    <id>http://yoursite.com/2019/08/03/不知巴陵四/</id>
+    <link href="http://yoursite.com/2019/08/03/%E4%B8%8D%E7%9F%A5%E5%85%AB%E9%9B%B6%E5%9B%9B/"/>
+    <id>http://yoursite.com/2019/08/03/不知八零四/</id>
     <published>2019-08-03T11:37:32.000Z</published>
     <updated>2019-08-03T11:37:32.496Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>&#39;电影&#39;</title>
-    <link href="http://yoursite.com/2019/08/03/%E7%94%B5%E5%BD%B1/"/>
-    <id>http://yoursite.com/2019/08/03/电影/</id>
-    <published>2019-08-03T07:07:57.000Z</published>
-    <updated>2019-08-03T07:07:57.403Z</updated>
     
     <summary type="html">
     
@@ -153,8 +151,8 @@
   
   <entry>
     <title>&#39;不知系列七三一&#39;</title>
-    <link href="http://yoursite.com/2019/07/31/%E4%B8%8D%E7%9F%A5%E7%B3%BB%E5%88%97%E4%B8%83%E4%B8%89%E4%B8%80/"/>
-    <id>http://yoursite.com/2019/07/31/不知系列七三一/</id>
+    <link href="http://yoursite.com/2019/07/31/%E4%B8%8D%E7%9F%A5%E4%B8%83%E4%B8%89%E4%B8%80/"/>
+    <id>http://yoursite.com/2019/07/31/不知七三一/</id>
     <published>2019-07-31T09:21:27.000Z</published>
     <updated>2019-07-31T10:18:31.988Z</updated>
     
@@ -191,8 +189,8 @@
   
   <entry>
     <title>&#39;不知系列七三零&#39;</title>
-    <link href="http://yoursite.com/2019/07/30/%E4%B8%8D%E7%9F%A5%E7%B3%BB%E5%88%97%E4%B8%83%E4%B8%89%E9%9B%B6/"/>
-    <id>http://yoursite.com/2019/07/30/不知系列七三零/</id>
+    <link href="http://yoursite.com/2019/07/30/%E4%B8%8D%E7%9F%A5%E4%B8%83%E4%B8%89%E9%9B%B6/"/>
+    <id>http://yoursite.com/2019/07/30/不知七三零/</id>
     <published>2019-07-30T11:38:06.000Z</published>
     <updated>2019-07-30T11:48:12.418Z</updated>
     
@@ -219,8 +217,8 @@
   
   <entry>
     <title>不知系列</title>
-    <link href="http://yoursite.com/2019/07/29/%E4%B8%8D%E7%9F%A5%E7%B3%BB%E5%88%97/"/>
-    <id>http://yoursite.com/2019/07/29/不知系列/</id>
+    <link href="http://yoursite.com/2019/07/29/%E4%B8%8D%E7%9F%A5%E4%B8%83%E4%BA%8C%E4%B9%9D/"/>
+    <id>http://yoursite.com/2019/07/29/不知七二九/</id>
     <published>2019-07-29T08:42:54.000Z</published>
     <updated>2019-07-29T11:25:41.858Z</updated>
     
