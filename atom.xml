@@ -43,12 +43,23 @@
     <link href="http://yoursite.com/2019/08/27/springmvc/"/>
     <id>http://yoursite.com/2019/08/27/springmvc/</id>
     <published>2019-08-27T09:34:53.000Z</published>
-    <updated>2019-08-27T09:34:53.534Z</updated>
+    <updated>2019-08-29T01:16:14.489Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="springmvc"><a href="#springmvc" class="headerlink" title="springmvc"></a>springmvc</h1><h2 id="8-28日"><a href="#8-28日" class="headerlink" title="8.28日"></a>8.28日</h2><blockquote class="blockquote-center"> 没劲 </blockquote><p>mvc模式     </p><p>用户&lt;=====&gt;请求&lt;=====&gt;model（ctroller，entity，dao，service）<br>            ^<br>            “<br>            “<br>            “<br>        view（渲染）</p><a id="more"></a><p>springmvc工作原理<br>用户请求—&gt;web.xml—-&gt;dispatxxxxservlet—&gt;请求handle—&gt;处理映射器—–&gt;handlemapping<br>——-&gt;适配器handle——-&gt;controller层—–&gt;view视图—-&gt;view渲染—-&gt;响应用户<br>要写的就俩    view视图（jsp）和controller</p><h1 id="题外话"><a href="#题外话" class="headerlink" title="题外话"></a>题外话</h1><p>看懂uml类图和时序图<br>uml有6种关系<br>关系名称             例子                         特点         表示</p><ol><li>组合关系         轮子和车壳组成汽车          强依赖       ——————实心方块</li><li>依赖关系         学生骑自行车上学            强依赖       ——&gt;</li><li>聚合关系         学生组成班级                弱依赖       ——————空心方块</li><li>关联关系         学生和学校                  强关联       ——————</li><li>实现关系         汽车和自行车组成抽象车      java接口     ——实心三角</li><li>泛化关系         奔驰是汽车                  是           ——————空心三角</li></ol><p>代理模式：在大对象与指令间设计一个代理：小对象，减少空间占用，缺点：耗时高  </p>]]></content>
     
     <summary type="html">
     
+      &lt;h1 id=&quot;springmvc&quot;&gt;&lt;a href=&quot;#springmvc&quot; class=&quot;headerlink&quot; title=&quot;springmvc&quot;&gt;&lt;/a&gt;springmvc&lt;/h1&gt;&lt;h2 id=&quot;8-28日&quot;&gt;&lt;a href=&quot;#8-28日&quot; class=&quot;headerlink&quot; title=&quot;8.28日&quot;&gt;&lt;/a&gt;8.28日&lt;/h2&gt;&lt;blockquote class=&quot;blockquote-center&quot;&gt; 没劲 &lt;/blockquote&gt;
+
+&lt;p&gt;mvc模式     &lt;/p&gt;
+&lt;p&gt;用户&amp;lt;=====&amp;gt;请求&amp;lt;=====&amp;gt;model（ctroller，entity，dao，service）&lt;br&gt;            ^&lt;br&gt;            “&lt;br&gt;            “&lt;br&gt;            “&lt;br&gt;        view（渲染）&lt;/p&gt;
+    
     </summary>
     
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+    
+    
+      <category term="springmvc" scheme="http://yoursite.com/tags/springmvc/"/>
     
   </entry>
   
